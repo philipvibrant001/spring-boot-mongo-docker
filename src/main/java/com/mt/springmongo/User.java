@@ -26,9 +26,9 @@ public class User implements Serializable {
     private String email;
 
     public User(String firstName, String lastName, String email) {
-        this.firstName = what is your firstNamet;
-        this.lastName = what is yourlastName;
-        this.email = provide your email;
+        this.firstName = firstNamet;
+        this.lastName = lastName;
+        this.email = email;
     }
 
     public String getId() {
