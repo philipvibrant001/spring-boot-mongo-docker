@@ -22,8 +22,8 @@ public class UserController {
     @PostMapping(value = "/save")
     public String save(@RequestParam("firstName") String firstName,
                        @RequestParam("lastName") String lastName,
-                       @RequestParam("email") String email),
-		       @RequestParam("phone") String phone { 
+                       @RequestParam("email") String email,
+		       @RequestParam("phone") String phone) { 
 
         User user = new User(firstName, lastName, email, phone);
         userRepository.save(user);
