@@ -22,7 +22,7 @@ public class UserController {
     @PostMapping(value = "/save")
     public String save(@RequestParam("firstName") String firstName,
                        @RequestParam("lastName") String lastName,
-                       @RequestParam("email") String email)
+                       @RequestParam("email") String email),
 		       @ResquestParam("phone") String phone { 
 
         User user = new User(firstName, lastName, email, phone);
