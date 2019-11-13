@@ -25,7 +25,7 @@ public class User implements Serializable {
     private String lastName;
     private String email;
 
-    public User(String firstName, String lastName, String email) {
+    public User(String firstName, String lastName, String email String phone)  {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
@@ -63,6 +63,14 @@ public class User implements Serializable {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    public String getPhone() {
+	    return phone;
+    }
+    public void setPhone(String phone) {
+	    this.phone = phone;
+    }
+
 
     @Override
     public boolean equals(Object o) {
