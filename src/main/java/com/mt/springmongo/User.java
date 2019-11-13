@@ -24,6 +24,7 @@ public class User implements Serializable {
     private String firstName;
     private String lastName;
     private String email;
+    private String phone;
 
     public User(String firstName, String lastName, String email, String phone)  {
         this.firstName = firstName;
