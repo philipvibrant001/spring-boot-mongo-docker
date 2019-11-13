@@ -21,8 +21,8 @@ public class User implements Serializable {
 	
 	@Id
     private String id;
-    private String your firstName;
-    private String your lastName;
+    private String firstName;
+    private String lastName;
     private String email;
 
     public User(String firstName, String lastName, String email) {
