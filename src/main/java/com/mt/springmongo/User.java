@@ -30,7 +30,7 @@ public class User implements Serializable {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
-	this.phome = phone;
+	this.phone = phone;
     }
 
     public String getId() {
